@@ -1,0 +1,19 @@
+CASO 1 - Login correto
+Usuário: admin
+Senha: 1234
+Resultado esperado: Login realizado com sucesso
+
+CASO 2 - Senha incorreta
+Usuário: admin
+Senha: 0000
+Resultado esperado: Erro
+
+CASO 3 - Usuário inválido
+Usuário: teste
+Senha: 1234
+Resultado esperado: Erro
+
+CASO 4 - Campos vazios
+Usuário: (vazio)
+Senha: (vazio)
+Resultado esperado: Erro de validação
