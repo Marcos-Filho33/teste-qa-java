@@ -1,0 +1,7 @@
+BUG 1 - Falta de validação de campos vazios (corrigido)
+Descrição: O sistema permitia envio de campos vazios
+Solução: Adicionada verificação com isEmpty()
+
+BUG 2 - Mensagem genérica de erro
+Descrição: Sistema não diferenciava tipos de erro
+Sugestão: Melhorar feedback ao usuário
